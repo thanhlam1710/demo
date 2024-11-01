@@ -1,0 +1,786 @@
+.fz80 {
+    font-size: 12vw;
+    letter-spacing: .05em
+}
+
+.fz70 {
+    font-size: 10.66vw;
+    letter-spacing: .05em
+}
+
+.fz60 {
+    font-size: 9.33vw;
+    letter-spacing: .05em
+}
+
+.fz55 {
+    font-size: 8.66vw;
+    letter-spacing: .05em
+}
+
+.fz45 {
+    font-size: 7.33vw;
+    letter-spacing: .05em
+}
+
+.fz32 {
+    font-size: 5.6vw;
+    letter-spacing: .05em
+}
+
+.clo-yellow {
+    color: #beaa6e
+}
+
+.clo-brown {
+    color: #3f1408
+}
+
+@media screen and (min-width: 1000px) {
+    .fz80 {
+        font-size: 80px
+    }
+
+    .fz70 {
+        font-size: 70px
+    }
+
+    .fz60 {
+        font-size: 60px
+    }
+
+    .fz55 {
+        font-size: 55px
+    }
+
+    .fz45 {
+        font-size: 45px
+    }
+
+    .fz32 {
+        font-size: 32px
+    }
+}
+
+#sec1 {
+    background-image: url(../img/shared/bg01.jpg);
+    background-position: center top;
+    background-repeat: repeat;
+    color: #fff;
+    position: relative;
+    margin-top: 8vw;
+    padding-bottom: 75vw
+}
+
+#sec1:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(../img/sake/sec1_bg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto
+}
+
+#sec1 .inner {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 18vw 4% 0px
+}
+
+#sec1 h2 {
+    line-height: 1.5;
+    position: relative;
+    padding-bottom: 2vw
+}
+
+#sec1 h2:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -5%;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(../img/sake/sec1_deco.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: -1
+}
+
+#sec1 h2 .ttl-large {
+    display: block;
+    font-weight: 600;
+    line-height: 1.125;
+    margin-top: 3vw
+}
+
+#sec1 .txt {
+    margin-top: 5vw
+}
+
+@media screen and (min-width: 1000px) {
+    #sec1 {
+        margin-top: 50px;
+        padding-bottom: 0px
+    }
+
+    #sec1:after {
+        position: absolute;
+        top: 0px;
+        left: auto;
+        right: calc(50% - 240px);
+        background-size: auto;
+        width: 990px;
+        height: 861px
+    }
+
+    #sec1 .inner {
+        max-width: 1140px;
+        margin: 0px auto;
+        padding: 135px 20px 145px;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    #sec1 .col-txt {
+        width: 468px
+    }
+
+    #sec1 h2 {
+        padding-bottom: 10px
+    }
+
+    #sec1 h2:after {
+        top: auto;
+        left: -55px;
+        background-size: auto;
+        width: 599px;
+        height: 91px
+    }
+
+    #sec1 h2 .ttl-large {
+        margin-top: 15px
+    }
+
+    #sec1 .txt {
+        margin-top: 36px
+    }
+}
+
+#sec2 {
+    position: relative;
+    box-sizing: border-box;
+    padding: 12vw 4% 0px
+}
+
+#sec2:before {
+    content: "";
+    position: absolute;
+    top: -4vw;
+    left: 0px;
+    right: 0px;
+    background-image: url(../img/shared/bg03.jpg);
+    background-position: center top;
+    background-repeat: repeat;
+    width: 70vw;
+    height: 70vw;
+    margin: 0px auto;
+    z-index: -2;
+    transform: rotate(135deg)
+}
+
+#sec2:after {
+    content: "";
+    position: absolute;
+    top: -3vw;
+    left: 0px;
+    right: 0px;
+    border: 1px solid #978459;
+    width: 66vw;
+    height: 66vw;
+    margin: 0px auto;
+    z-index: -1;
+    transform: rotate(135deg)
+}
+
+#sec2 [class^=inner] .col-txt {
+    position: relative
+}
+
+#sec2 [class^=inner] .col-txt:before {
+    content: "";
+    position: absolute;
+    background: #230e08;
+    width: 10px;
+    height: 10px
+}
+
+#sec2 [class^=inner] .col-txt:after {
+    content: "";
+    position: absolute;
+    background: #230e08;
+    width: 10px;
+    height: 10px
+}
+
+#sec2 h2 {
+    line-height: 1.55
+}
+
+#sec2 h2 span {
+    display: block;
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 2vw
+}
+
+#sec2 h3 {
+    line-height: 1.6
+}
+
+#sec2 h3 span {
+    color: #9a3216;
+    font-weight: 600
+}
+
+#sec2 .inner1 {
+    margin-top: 13vw
+}
+
+#sec2 .inner2 {
+    margin-top: 15vw
+}
+
+#sec2 [class^=sec2-img] {
+    position: relative
+}
+
+#sec2 [class^=sec2-img]:before {
+    content: "";
+    position: absolute;
+    top: 4vw;
+    left: -4%;
+    bottom: -4vw;
+    background-image: url(../img/shared/bg02.png);
+    background-position: left top;
+    background-repeat: repeat;
+    background-size: 20% auto;
+    width: 64vw
+}
+
+#sec2 .txt {
+    margin-top: 4vw
+}
+
+@media screen and (max-width: 999px) {
+    #sec2 .col-txt {
+        padding: 6vw 4%;
+        border-bottom: 1px solid rgba(35, 14, 8, .5)
+    }
+
+    #sec2 .col-txt:before {
+        left: 0px;
+        bottom: -5px
+    }
+
+    #sec2 .col-txt:after {
+        right: 0px;
+        bottom: -5px
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #sec2 {
+        max-width: 1240px;
+        margin: 0px auto;
+        padding: 117px 20px 0px
+    }
+
+    #sec2:before {
+        top: -145px;
+        width: 704px;
+        height: 704px
+    }
+
+    #sec2:after {
+        top: -140px;
+        width: 690px;
+        height: 690px
+    }
+
+    #sec2 [class^=inner] {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start
+    }
+
+    #sec2 [class^=sec2-img] {
+        height: 480px;
+        width: calc(50% + 120px)
+    }
+
+    #sec2 [class^=sec2-img]:before {
+        top: 40px;
+        left: -40px;
+        background-size: auto;
+        width: 480px;
+        height: 480px
+    }
+
+    #sec2 [class^=sec2-img] .object-fit-cover {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px
+    }
+
+    #sec2 .inner1 {
+        margin-top: 96px
+    }
+
+    #sec2 .inner1 .col-txt {
+        min-width: 477px;
+        margin: 28px 0px 0px 28px;
+        padding: 15px 50px 51px 0px;
+        border-right: 1px solid rgba(35, 14, 8, .5)
+    }
+
+    #sec2 .inner1 .col-txt:before {
+        top: 0px;
+        left: auto;
+        right: -5px
+    }
+
+    #sec2 .inner1 .col-txt:after {
+        top: auto;
+        left: auto;
+        right: -5px;
+        bottom: 0px
+    }
+
+    #sec2 .inner1 .txt {
+        margin: 30px 0px 0px 10px
+    }
+
+    #sec2 .inner2 {
+        margin-top: 114px;
+        flex-direction: row-reverse
+    }
+
+    #sec2 .inner2 .col-txt {
+        min-width: 516px;
+        margin: 28px 20px 0px 0px;
+        padding: 49px 0px 49px 58px;
+        border-left: 1px solid rgba(35, 14, 8, .5)
+    }
+
+    #sec2 .inner2 .col-txt:before {
+        top: 0px;
+        left: -5px
+    }
+
+    #sec2 .inner2 .col-txt:after {
+        top: auto;
+        left: -5px;
+        bottom: 0px
+    }
+
+    #sec2 .inner2 .txt {
+        margin: 30px 0px 0px 0px
+    }
+
+    #sec2 h2 span {
+        margin-top: 11px
+    }
+
+    #sec2 .txt {
+        width: 413px
+    }
+
+    #sec2 .sec2-img1 {
+        margin-left: -70px
+    }
+
+    #sec2 .sec2-img2 {
+        margin-right: -120px
+    }
+}
+
+#sec3 {
+    margin-top: 17vw;
+    color: #fff;
+    background: url(../img/sake/sec3_bg.jpg), #000;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+    padding: 80vw 4% 0px
+}
+
+#sec3 .col-txt {
+    box-sizing: border-box;
+    position: relative
+}
+
+#sec3 .col-txt:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: url(../img/sake/deco_dots.png), url(../img/sake/deco_dots.png);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+    background-size: 50px 62px
+}
+
+#sec3 .col-txt {
+    padding: 8vw 4% 15vw
+}
+
+#sec3 h2 {
+    line-height: 1.33
+}
+
+#sec3 h2 span {
+    font-weight: 600;
+    margin-left: 10%
+}
+
+#sec3 .txt {
+    margin: 4vw 0px 0px
+}
+
+@media screen and (min-width: 1000px) {
+    #sec3 {
+        margin-top: 130px;
+        padding: 135px 0px 94px;
+        background-size: cover
+    }
+
+    #sec3 .col-txt {
+        margin: 0px 0px 0px 40px;
+        padding: 25px 0px 77px 40px;
+        width: 453px
+    }
+
+    #sec3 .col-txt:before {
+        background-size: auto
+    }
+
+    #sec3 h2 span {
+        margin-left: 60px
+    }
+
+    #sec3 .txt {
+        width: 412px;
+        margin: 30px 0px 0px 0px
+    }
+}
+
+#sec4 .btn-shared {
+    margin-top: 13vw
+}
+
+@media screen and (min-width: 1000px) {
+    #sec4 {
+        padding: 104px 0 150px
+    }
+
+    #sec4 .btn-shared {
+        width: 810px;
+        margin: 100px auto 0
+    }
+}
+
+.remodal-drink {
+    background-image: url(../img/shared/bg_bd.jpg);
+    background-position: center top;
+    background-repeat: repeat;
+    padding: 5vw 4%
+}
+
+.remodal-drink #popup-drink {
+    padding: 0;
+}
+
+.remodal-drink h2 {
+    margin-top: 8vw
+}
+
+.remodal-drink .remodal-close:before,
+.remodal-drink .remodal-close:after {
+    display: none
+}
+
+.remodal-drink .remodal-cancel {
+    background: rgba(0, 0, 0, 0);
+    color: #000;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13vw auto 0px;
+    min-width: auto;
+    padding: 0px
+}
+
+.remodal-drink .remodal-cancel i {
+    position: relative;
+    top: -3px;
+    display: inline-block;
+    width: 18px;
+    margin-left: 5px
+}
+
+@media screen and (min-width: 1000px) {
+    .remodal-drink {
+        padding: 29px 29px 105px;
+    }
+
+    .remodal-drink h2 {
+        margin-top: 57px
+    }
+
+    .remodal-drink .remodal-cancel {
+        margin-top: 100px;
+        font-size: 23px
+    }
+
+    .remodal-drink .remodal-cancel:hover {
+        opacity: 0.7;
+    }
+
+    .remodal-drink .remodal-cancel i {
+        width: 25px;
+        margin-left: 24px
+    }
+}
+
+#sec5 {
+    background-image: url(../img/sake/sec5_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 0px 4% 4vw 0px;
+    min-height: 110vw
+}
+
+#sec5 h2 {
+    text-align: right;
+    line-height: 2.5;
+    letter-spacing: .33em
+}
+
+@media screen and (min-width: 1000px) {
+    #sec5 {
+        min-height: 830px;
+        padding: 0px 69px 58px 0px
+    }
+}
+
+#sec6 {
+    position: relative;
+    padding: 17vw 0px
+}
+
+#sec6:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 75%;
+    bottom: 0px;
+    background-image: url(../img/shared/bg02.png);
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: 50% auto;
+    z-index: -1
+}
+
+#sec6 .wrap:before {
+    content: "";
+    position: absolute;
+    right: -42vw;
+    bottom: -51vw;
+    background-image: url(../img/shared/bg03.jpg);
+    background-position: right bottom;
+    background-repeat: repeat;
+    z-index: -1;
+    transform: rotate(135deg);
+    width: 70vw;
+    height: 70vw
+}
+
+#sec6 .wrap:after {
+    content: "";
+    position: absolute;
+    right: -40vw;
+    bottom: -49vw;
+    border: 1px solid #978459;
+    z-index: -1;
+    transform: rotate(135deg);
+    width: 66vw;
+    height: 66vw
+}
+
+#sec6 h2 {
+    position: relative;
+    padding-bottom: 9vw
+}
+
+#sec6 h2:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(../img/sake/sec4_deco.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto
+}
+
+#sec6 .inner {
+    margin-top: 4vw
+}
+
+#sec6 h3 {
+    line-height: 1.45
+}
+
+#sec6 h3 strong {
+    line-height: 1;
+    font-weight: 600;
+    margin-left: 2%
+}
+
+#sec6 h3 em {
+    font-style: normal;
+    letter-spacing: .09em;
+    line-height: 1;
+    color: #fff;
+    background: #9a3216;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1vw
+}
+
+#sec6 h3 em~em {
+    margin-left: 2px
+}
+
+#sec6 .txt {
+    margin-top: 4vw
+}
+
+#sec6 .sec6-img1 {
+    margin-top: 8vw
+}
+
+#sec6 .col-right {
+    margin-top: 10vw
+}
+
+#sec6 .sec6-map {
+    margin: 0px 10%
+}
+
+#sec6 .sec6-img2 {
+    margin-top: 12vw
+}
+
+@media screen and (min-width: 1000px) {
+    #sec6 {
+        padding: 128px 0px 133px
+    }
+
+    #sec6:before {
+        width: calc(50% - 450px);
+        background-size: auto
+    }
+
+    #sec6 .wrap:before {
+        right: -605px;
+        bottom: -620px;
+        width: 704px;
+        height: 704px
+    }
+
+    #sec6 .wrap:after {
+        right: -601px;
+        bottom: -616px;
+        width: 694px;
+        height: 694px
+    }
+
+    #sec6 h2 {
+        padding-bottom: 64px
+    }
+
+    #sec6 h2:before {
+        top: auto;
+        left: 242px;
+        bottom: 0px;
+        background-size: auto;
+        width: 600px;
+        height: 91px
+    }
+
+    #sec6 .inner {
+        margin-top: 53px;
+        display: flex;
+        justify-content: space-between
+    }
+
+    #sec6 .col-left {
+        width: 516px
+    }
+
+    #sec6 h3 strong {
+        margin-left: 10px;
+        position: relative;
+        top: 11px
+    }
+
+    #sec6 h3 em {
+        padding: 2px 2px 4px
+    }
+
+    #sec6 h3 em~em {
+        margin-left: 2px
+    }
+
+    #sec6 .txt {
+        width: 407px;
+        margin-top: 27px
+    }
+
+    #sec6 .sec6-img1 {
+        margin: 59px 0px 0px -74px
+    }
+
+    #sec6 .col-right {
+        width: 426px;
+        margin-top: 10px
+    }
+
+    #sec6 .sec6-map {
+        margin: 0px 0px 0px 8px
+    }
+
+    #sec6 .sec6-img2 {
+        margin: 91px -64px 0px 0px
+    }
+}

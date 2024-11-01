@@ -1,0 +1,647 @@
+@media screen and (max-width: 999px) {
+    #header #keyvisual .kv .bg img {
+        object-position: left -5vw top 0;
+    }
+}
+
+#sec1 {
+    padding-bottom: 10vw
+}
+
+#sec1 .gr-txt {
+    position: relative;
+    padding-top: 15vw
+}
+
+#sec1 .gr-txt::before {
+    content: "";
+    position: absolute;
+    background: url("../img/yakitori/sec1_deco.png") no-repeat;
+    background-size: 100%;
+    width: 110vw;
+    height: 110vw;
+    top: -39vw;
+    left: -50%;
+    z-index: -1
+}
+
+#sec1 .gr-txt h2 * {
+    letter-spacing: .05em
+}
+
+#sec1 .gr-txt h2 span {
+    display: block;
+    color: #3f1408;
+    line-height: 1.56;
+    font-size: 7.2vw
+}
+
+#sec1 .gr-txt h2 span:nth-child(2) i.fs1 {
+    color: #9a3216;
+    font-size: 10.53vw;
+    font-weight: 600
+}
+
+#sec1 .gr-txt h2 span:nth-child(2) i.fs2 {
+    font-size: 9.2vw
+}
+
+#sec1 .gr-txt .txt {
+    color: #1b1816;
+    margin-top: 5vw
+}
+
+#sec1 .photo {
+    margin-top: 10vw
+}
+
+@media screen and (min-width: 1000px) {
+    #sec1 {
+        padding: 98px 0 63px
+    }
+
+    #sec1 .wrap {
+        max-width: 1332px;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    #sec1 .gr-txt {
+        padding: 56px 25px 0
+    }
+
+    #sec1 .gr-txt::before {
+        width: 996px;
+        height: 996px;
+        top: -488px;
+        left: -550px
+    }
+
+    #sec1 .gr-txt h2 span {
+        line-height: 70px;
+        font-size: 45px
+    }
+
+    #sec1 .gr-txt h2 span:nth-child(2) {
+        margin-top: 11px
+    }
+
+    #sec1 .gr-txt h2 span:nth-child(2) i.fs1 {
+        font-size: 70px
+    }
+
+    #sec1 .gr-txt h2 span:nth-child(2) i.fs2 {
+        font-size: 60px
+    }
+
+    #sec1 .gr-txt .txt {
+        width: 434px;
+        margin: 36px 0 0 6px
+    }
+
+    #sec1 .photo {
+        flex: 1;
+        max-width: 666px;
+        margin-top: 0
+    }
+}
+
+#sec2 {
+    background: url("../img/shared/bg01.jpg") repeat center;
+    color: #fff;
+    padding: 17vw 0 9vw
+}
+
+#sec2 .set .photo {
+    margin: 0 5%
+}
+
+#sec2 .set .gr-txt {
+    margin-top: -5vw
+}
+
+#sec2 .set .gr-txt h2 {
+    position: relative;
+    margin: 0 auto;
+    z-index: 1
+}
+
+#sec2 .set .gr-txt h2::before {
+    content: "";
+    position: absolute;
+    background: url("../img/yakitori/sec2_deco.png") no-repeat;
+    background-size: 100%;
+    width: 75vw;
+    height: 30vw;
+    top: 4vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1
+}
+
+#sec2 .set .gr-txt h2 * {
+    letter-spacing: .05em
+}
+
+#sec2 .set .gr-txt h2 span {
+    display: block;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+#sec2 .set .gr-txt h2 span.t1 {
+    background: #fff;
+    color: #9a3216;
+    padding: 3vw 0;
+    font-weight: bold;
+    font-size: 5.87vw;
+    line-height: 2
+}
+
+#sec2 .set .gr-txt h2 span.t2 {
+    margin: 5.5vw 4vw 0 0;
+    font-size: 8.53vw;
+    line-height: 1.5
+}
+
+#sec2 .set .gr-txt h2 span.t2 i {
+    color: #beaa6e;
+    font-size: 11.87vw;
+    font-weight: 600
+}
+
+#sec2 .set .gr-txt .txt {
+    margin-top: 7vw
+}
+
+#sec2 .set2 {
+    margin-top: 15vw
+}
+
+@media screen and (min-width: 1000px) {
+    #sec2 {
+        padding: 136px 0 86px
+    }
+
+    #sec2 .wrap {
+        max-width: 1116px
+    }
+
+    #sec2 .set {
+        display: flex;
+        justify-content: space-between
+    }
+
+    #sec2 .set .photo {
+        position: relative;
+        z-index: 2;
+        flex: 1;
+        max-width: 620px;
+        height: 790px;
+        margin: 0
+    }
+
+    #sec2 .set .gr-txt {
+        width: 380px;
+        margin: 2px 57px 0
+    }
+
+    #sec2 .set .gr-txt h2 {
+        padding-right: 44px
+    }
+
+    #sec2 .set .gr-txt h2::before {
+        width: 599px;
+        height: 91px;
+        top: 21px;
+        left: calc(50% + 33px)
+    }
+
+    #sec2 .set .gr-txt h2 span.t1 {
+        padding: 22px 0 18px;
+        font-size: 35px;
+        line-height: 68px
+    }
+
+    #sec2 .set .gr-txt h2 span.t2 {
+        margin: 43px 17px 0 0;
+        font-size: 55px;
+        line-height: 103px
+    }
+
+    #sec2 .set .gr-txt h2 span.t2 i {
+        margin-top: -7px;
+        font-size: 80px
+    }
+
+    #sec2 .set .gr-txt .txt {
+        margin-top: 62px
+    }
+
+    #sec2 .set2 {
+        max-width: 1000px;
+        margin: 101px auto 0
+    }
+
+    #sec2 .set2 .photo {
+        order: 2;
+        margin-right: -101px
+    }
+
+    #sec2 .set2 .gr-txt {
+        order: 1;
+        margin: 62px 44px 0 57px;
+        width: 368px
+    }
+
+    #sec2 .set2 .gr-txt h2 {
+        height: 465px;
+        padding-right: 32px;
+
+    }
+
+    #sec2 .set2 .gr-txt h2 span:nth-child(2) {
+        margin-top: 37px
+    }
+
+    #sec2 .set2 .gr-txt h2 span:nth-child(2) i {
+        margin-top: 0
+    }
+
+    #sec2 .set2 .gr-txt .txt {
+        margin-top: 43px
+    }
+}
+
+#sec3 {
+    position: relative;
+    padding-bottom: 20vw
+}
+
+#sec3::before {
+    content: "";
+    position: absolute;
+    background: url("../img/yakitori/sec3_bg.jpg") no-repeat center/cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-clip-path: polygon(0% 0, 100% 0, 100% 97%, 50% 100%, 0 97%);
+    clip-path: polygon(0% 0, 100% 0, 100% 97%, 50% 100%, 0 97%);
+    z-index: -1
+}
+
+#sec3 .gr-photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -moz-column-gap: 3vw;
+    column-gap: 3vw
+}
+
+#sec3 .gr-photo.gr-photo1 {
+    padding: 10vw 0
+}
+
+#sec3 .gr-photo.gr-photo2 {
+    margin-top: 10vw
+}
+
+#sec3 .gr-photo.gr-photo2 li:nth-child(2) img:nth-child(1) {
+    display: block;
+    width: 50%;
+    margin: 0 auto 3vw
+}
+
+#sec3 .title {
+    position: relative;
+    width: 80%;
+    margin: 0 auto
+}
+
+#sec3 .title .deco-line {
+    position: relative;
+    border-top: 1px solid #fff
+}
+
+#sec3 .title .deco-line::before,
+#sec3 .title .deco-line:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 7.5px;
+    height: 7.5px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+#sec3 .title .deco-line::before {
+    left: 0
+}
+
+#sec3 .title .deco-line:after {
+    right: 0
+}
+
+#sec3 .title h2 {
+    box-sizing: content-box;
+    margin: 9vw auto;
+    color: #fff;
+    font-size: 7.2vw;
+    line-height: 1.75;
+    letter-spacing: .05em
+}
+
+#sec3 .title h2 span {
+    margin-top: -4.5vw
+}
+
+#sec3 .title h2 i {
+    font-size: 9.2vw;
+    font-weight: 600;
+    letter-spacing: .05em
+}
+
+@media screen and (min-width: 1000px) {
+    #sec3 {
+        padding-bottom: 0
+    }
+
+    #sec3::before {
+        -webkit-clip-path: polygon(0% 0, 100% 0, 100% 88.5%, 50% 100%, 0 88.5%);
+        clip-path: polygon(0% 0, 100% 0, 100% 88.5%, 50% 100%, 0 88.5%)
+    }
+
+    #sec3 .wrap {
+        max-width: 100%
+    }
+
+    #sec3 .gr-photo {
+        position: absolute;
+        align-items: flex-start;
+        -moz-column-gap: 0;
+        column-gap: 0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        z-index: -1
+    }
+
+    #sec3 .gr-photo.gr-photo1 {
+        max-width: 1500px;
+        padding: 0;
+        top: 50px
+    }
+
+    #sec3 .gr-photo.gr-photo1 li:nth-child(1) {
+        margin: 166px 0 0 46px
+    }
+
+    #sec3 .gr-photo.gr-photo2 {
+        max-width: 1354px;
+        margin-top: 0;
+        bottom: 184px
+    }
+
+    #sec3 .gr-photo.gr-photo2 li:nth-child(1) {
+        margin: 61px 0 0 58px
+    }
+
+    #sec3 .gr-photo.gr-photo2 li:nth-child(2) img:nth-child(1) {
+        width: auto;
+        padding-left: 30px;
+        margin: 0 auto 122px
+    }
+
+    #sec3 .title {
+        width: 364px;
+        padding: 346px 0 352px
+    }
+
+    #sec3 .title .deco-line::before,
+    #sec3 .title .deco-line:after {
+        width: 10px;
+        height: 10px
+    }
+
+    #sec3 .title h2 {
+        height: 510px;
+        margin: 69px auto 44px;
+        font-size: 45px;
+        line-height: 105px
+    }
+
+    #sec3 .title h2 span {
+        margin: -25px 0 -15px
+    }
+
+    #sec3 .title h2 i {
+        font-size: 60px
+    }
+}
+
+#sec4 {
+    position: relative;
+    padding-top: 13vw
+}
+
+#sec4::before {
+    content: "";
+    position: absolute;
+    background: url("../img/shared/bg02.png") repeat center/45.5px auto;
+    width: 50%;
+    top: -20vw;
+    left: 0;
+    bottom: 0;
+    z-index: -2
+}
+
+#sec4 h2 {
+    color: #3f1408;
+    font-size: 6.2vw;
+    line-height: 1.8;
+    letter-spacing: .05em
+}
+
+#sec4 h2 span {
+    color: #9a3216;
+    font-size: 9.53vw;
+    font-weight: 600;
+    letter-spacing: .05em
+}
+
+#sec4 .note {
+    margin-top: 3vw
+}
+
+#sec4 .row {
+    margin-top: 5vw
+}
+
+#sec4 .row .col {
+    position: relative;
+    padding: 0 4.5% 8vw
+}
+
+#sec4 .row .col::before {
+    content: "";
+    position: absolute;
+    top: 6vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+#sec4 .row .col h3 {
+    display: flex;
+    justify-content: center;
+    -moz-column-gap: 2px;
+    column-gap: 2px
+}
+
+#sec4 .row .col h3 span {
+    display: block;
+    color: #fff;
+    padding: 0 1px 3px 2px;
+    font-size: 11.87vw;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0
+}
+
+#sec4 .row .col .menu {
+    margin-top: 4vw
+}
+
+#sec4 .row .col .menu .item dl {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 8% 0;
+    color: #230c02;
+    font-size: 18px
+}
+
+#sec4 .row .col .menu .item dl * {
+    letter-spacing: .05em
+}
+
+#sec4 .row .col .menu .item dl dd small {
+    font-size: 14px
+}
+
+#sec4 .row .col .menu .item+.item {
+    margin-top: 5vw
+}
+
+#sec4 .row .col:nth-child(1)::before {
+    background: url("../img/shared/bg03.jpg") repeat center
+}
+
+#sec4 .row .col:nth-child(1) h3 span {
+    background: #421405
+}
+
+#sec4 .row .col:nth-child(2) {
+    margin-top: 10vw
+}
+
+#sec4 .row .col:nth-child(2)::before {
+    background: url("../img/shared/bg06.jpg") repeat center
+}
+
+#sec4 .row .col:nth-child(2) h3 span {
+    background: url("../img/shared/bg05.jpg") repeat center
+}
+
+@media screen and (min-width: 1000px) {
+    #sec4 {
+        padding-top: 99px
+    }
+
+    #sec4::before {
+        background-size: auto;
+        width: 31.6%;
+        top: -237px
+    }
+
+    #sec4 .wrap {
+        max-width: 1400px
+    }
+
+    #sec4 h2 {
+        font-size: 45px;
+        line-height: 78px
+    }
+
+    #sec4 h2 span {
+        font-size: 70px
+    }
+
+    #sec4 .note {
+        margin-top: 35px
+    }
+
+    #sec4 .row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 53px
+    }
+
+    #sec4 .row .col {
+        width: 48.5714285714%;
+        padding: 0 20px 89px
+    }
+
+    #sec4 .row .col::before {
+        top: 42px
+    }
+
+    #sec4 .row .col h3 span {
+        padding: 0 3px 10px 0;
+        font-size: 80px;
+        line-height: 73px
+    }
+
+    #sec4 .row .col .menu {
+        max-width: 600px;
+        margin: 29px auto 0
+    }
+
+    #sec4 .row .col .menu .item dl {
+        max-width: 458px;
+        margin: 18px auto 0;
+        font-size: 30px
+    }
+
+    #sec4 .row .col .menu .item dl dd small {
+        font-size: 20px
+    }
+
+    #sec4 .row .col .menu .item+.item {
+        margin-top: 61px
+    }
+
+    #sec4 .row .col:nth-child(2) {
+        margin-top: 0
+    }
+}
+
+#sec5::before {
+    content: "";
+    position: absolute;
+    background: url("../img/shared/bg02.png") repeat center/45.5px auto;
+    width: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+@media screen and (min-width: 1000px) {
+    #sec5::before {
+        background-size: auto;
+        width: 31.6%
+    }
+}
